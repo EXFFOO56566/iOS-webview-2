@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D09C960245E914C00333864 /* NoInternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D09C95F245E914C00333864 /* NoInternetViewController.swift */; };
+		1D1B28FA228C5F17006D7F0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D1B28F9228C5F17006D7F0D /* GoogleService-Info.plist */; };
+		1D3E988B24684B49000A13A2 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3E988A24684B49000A13A2 /* AppConfig.swift */; };
+		1D4E97B22404D1C10052FF28 /* ThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E97B12404D1C10052FF28 /* ThemeViewController.swift */; };
+		1D58E6982406BC3700536E74 /* ThemeColorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D58E6972406BC3700536E74 /* ThemeColorCollectionViewCell.swift */; };
+		1D58E69A2406BC4800536E74 /* ThemeColorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D58E6992406BC4800536E74 /* ThemeColorCollectionViewCell.xib */; };
+		1D66E70F2462844200BD3D89 /* FBLPromises.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E70E2462844200BD3D89 /* FBLPromises.framework */; };
+		1D66E7112462844200BD3D89 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E7102462844200BD3D89 /* FirebaseCore.framework */; };
+		1D66E7132462844200BD3D89 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E7122462844200BD3D89 /* FirebaseCoreDiagnostics.framework */; };
+		1D66E7152462844200BD3D89 /* FirebaseInstallations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E7142462844200BD3D89 /* FirebaseInstallations.framework */; };
+		1D66E7172462844200BD3D89 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E7162462844200BD3D89 /* FirebaseInstanceID.framework */; };
+		1D66E7192462844200BD3D89 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E7182462844200BD3D89 /* FirebaseMessaging.framework */; };
+		1D66E71B2462844200BD3D89 /* GoogleDataTransport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E71A2462844200BD3D89 /* GoogleDataTransport.framework */; };
+		1D66E71D2462844200BD3D89 /* GoogleDataTransportCCTSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E71C2462844200BD3D89 /* GoogleDataTransportCCTSupport.framework */; };
+		1D66E71F2462844200BD3D89 /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E71E2462844200BD3D89 /* GoogleUtilities.framework */; };
+		1D66E7212462844200BD3D89 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E7202462844200BD3D89 /* nanopb.framework */; };
+		1D66E7252462844200BD3D89 /* protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E7242462844200BD3D89 /* protobuf.framework */; };
+		1D66E7272462844200BD3D89 /* SideMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D66E7262462844200BD3D89 /* SideMenu.framework */; };
+		1D6FFCF721EB82D00013629F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FFCF621EB82D00013629F /* AppDelegate.swift */; };
+		1D6FFCF921EB82D00013629F /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FFCF821EB82D00013629F /* MainViewController.swift */; };
+		1D6FFCFC21EB82D00013629F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D6FFCFA21EB82D00013629F /* Main.storyboard */; };
+		1D6FFCFE21EB82D00013629F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D6FFCFD21EB82D00013629F /* Assets.xcassets */; };
+		1D6FFD0C21EB82D10013629F /* RocketWebTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FFD0B21EB82D10013629F /* RocketWebTests.swift */; };
+		1D6FFD1721EB82D10013629F /* RocketWebUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FFD1621EB82D10013629F /* RocketWebUITests.swift */; };
+		1D6FFD2A21EB83A20013629F /* UtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FFD2721EB83A20013629F /* UtilityMethods.swift */; };
+		1D6FFD3021EB84430013629F /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FFD2F21EB84430013629F /* Extension.swift */; };
+		1D6FFD3221EB9D940013629F /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FFD3121EB9D940013629F /* SplashViewController.swift */; };
+		1D6FFD3521EB9E9C0013629F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6FFD3421EB9E9C0013629F /* HomeViewController.swift */; };
+		1D79892C244F446200EC481F /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D79892B244F446200EC481F /* AboutViewController.swift */; };
+		1D987D5923F3110300E7068B /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D987D5723F3110300E7068B /* MenuTableViewCell.swift */; };
+		1DA95E1B247E367C00EC60A5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D6FFD0221EB82D00013629F /* Info.plist */; };
+		1DB221F6242E611D00F7C12D /* SlideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB221F5242E611D00F7C12D /* SlideMenuViewController.swift */; };
+		1DE90D8922C767010052DF3E /* rocket_web.io in Resources */ = {isa = PBXBuildFile; fileRef = 1DE90D8822C767010052DF3E /* rocket_web.io */; };
+		1DF6E5FC247F897200CA65D0 /* RocketWebLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF6E5FB247F897200CA65D0 /* RocketWebLib.framework */; };
+		1DF6E5FD247F897200CA65D0 /* RocketWebLib.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF6E5FB247F897200CA65D0 /* RocketWebLib.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D6FFD0821EB82D10013629F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6FFCEB21EB82D00013629F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6FFCF221EB82D00013629F;
+			remoteInfo = RocketWeb;
+		};
+		1D6FFD1321EB82D10013629F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D6FFCEB21EB82D00013629F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D6FFCF221EB82D00013629F;
+			remoteInfo = RocketWeb;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1DB960A423954D2100206FBD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DF6E5FE247F897200CA65D0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1DF6E5FD247F897200CA65D0 /* RocketWebLib.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D09C95F245E914C00333864 /* NoInternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetViewController.swift; sourceTree = "<group>"; };
+		1D1B28F9228C5F17006D7F0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1D2CE8792445FF0D005EC3C0 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE87A2445FF0D005EC3C0 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE87B2445FF0D005EC3C0 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE87C2445FF0D005EC3C0 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE87D2445FF0D005EC3C0 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE87E2445FF0D005EC3C0 /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE87F2445FF0D005EC3C0 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE8802445FF0D005EC3C0 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE8822445FF0D005EC3C0 /* protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2CE8832445FF0D005EC3C0 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D3E988A24684B49000A13A2 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		1D4E97B12404D1C10052FF28 /* ThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewController.swift; sourceTree = "<group>"; };
+		1D58E6972406BC3700536E74 /* ThemeColorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeColorCollectionViewCell.swift; sourceTree = "<group>"; };
+		1D58E6992406BC4800536E74 /* ThemeColorCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeColorCollectionViewCell.xib; sourceTree = "<group>"; };
+		1D66E70E2462844200BD3D89 /* FBLPromises.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FBLPromises.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E7102462844200BD3D89 /* FirebaseCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E7122462844200BD3D89 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E7142462844200BD3D89 /* FirebaseInstallations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstallations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E7162462844200BD3D89 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E7182462844200BD3D89 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E71A2462844200BD3D89 /* GoogleDataTransport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E71C2462844200BD3D89 /* GoogleDataTransportCCTSupport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleDataTransportCCTSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E71E2462844200BD3D89 /* GoogleUtilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = GoogleUtilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E7202462844200BD3D89 /* nanopb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = nanopb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E7242462844200BD3D89 /* protobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = protobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D66E7262462844200BD3D89 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6FFCF321EB82D00013629F /* RocketWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RocketWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6FFCF621EB82D00013629F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D6FFCF821EB82D00013629F /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; usesTabs = 1; wrapsLines = 1; };
+		1D6FFCFB21EB82D00013629F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D6FFCFD21EB82D00013629F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D6FFD0221EB82D00013629F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6FFD0721EB82D10013629F /* RocketWebTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketWebTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6FFD0B21EB82D10013629F /* RocketWebTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketWebTests.swift; sourceTree = "<group>"; };
+		1D6FFD0D21EB82D10013629F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6FFD1221EB82D10013629F /* RocketWebUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RocketWebUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6FFD1621EB82D10013629F /* RocketWebUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketWebUITests.swift; sourceTree = "<group>"; };
+		1D6FFD1821EB82D10013629F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D6FFD2721EB83A20013629F /* UtilityMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityMethods.swift; sourceTree = "<group>"; };
+		1D6FFD2F21EB84430013629F /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		1D6FFD3121EB9D940013629F /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		1D6FFD3421EB9E9C0013629F /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1D79892B244F446200EC481F /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		1D987D5723F3110300E7068B /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		1DB221F5242E611D00F7C12D /* SlideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideMenuViewController.swift; sourceTree = "<group>"; };
+		1DB9609E23954D2100206FBD /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		1DB960A023954D2100206FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DB960A823954F0A00206FBD /* RocketWeb.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RocketWeb.entitlements; sourceTree = "<group>"; };
+		1DE90D8822C767010052DF3E /* rocket_web.io */ = {isa = PBXFileReference; fileEncoding = 4; indentWidth = 0; lastKnownFileType = text; lineEnding = 1; path = rocket_web.io; sourceTree = "<group>"; tabWidth = 1; usesTabs = 0; wrapsLines = 1; };
+		1DF6E5FB247F897200CA65D0 /* RocketWebLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RocketWebLib.framework; path = Library/RocketWebLib.framework; sourceTree = "<group>"; };
+		9609505B94D1A6FF6EE60150 /* Pods-RocketWeb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketWeb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RocketWeb/Pods-RocketWeb.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD1EAB80421CCB42FA0E298 /* Pods-RocketWeb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RocketWeb.release.xcconfig"; path = "Pods/Target Support Files/Pods-RocketWeb/Pods-RocketWeb.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D6FFCF021EB82D00013629F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D66E70F2462844200BD3D89 /* FBLPromises.framework in Frameworks */,
+				1D66E7112462844200BD3D89 /* FirebaseCore.framework in Frameworks */,
+				1D66E7132462844200BD3D89 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				1D66E7152462844200BD3D89 /* FirebaseInstallations.framework in Frameworks */,
+				1D66E7172462844200BD3D89 /* FirebaseInstanceID.framework in Frameworks */,
+				1D66E7192462844200BD3D89 /* FirebaseMessaging.framework in Frameworks */,
+				1D66E71B2462844200BD3D89 /* GoogleDataTransport.framework in Frameworks */,
+				1DF6E5FC247F897200CA65D0 /* RocketWebLib.framework in Frameworks */,
+				1D66E71D2462844200BD3D89 /* GoogleDataTransportCCTSupport.framework in Frameworks */,
+				1D66E71F2462844200BD3D89 /* GoogleUtilities.framework in Frameworks */,
+				1D66E7212462844200BD3D89 /* nanopb.framework in Frameworks */,
+				1D66E7252462844200BD3D89 /* protobuf.framework in Frameworks */,
+				1D66E7272462844200BD3D89 /* SideMenu.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FFD0421EB82D10013629F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FFD0F21EB82D10013629F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D017A9C2303068300497344 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FFCFA21EB82D00013629F /* Main.storyboard */,
+				1D987D5C23F3111800E7068B /* CellView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D4E51C6246012760015C8DD /* SlideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				1D987D5723F3110300E7068B /* MenuTableViewCell.swift */,
+				1DB221F5242E611D00F7C12D /* SlideMenuViewController.swift */,
+			);
+			path = SlideMenu;
+			sourceTree = "<group>";
+		};
+		1D4E97B32404D1CE0052FF28 /* Theme */ = {
+			isa = PBXGroup;
+			children = (
+				1D4E97B12404D1C10052FF28 /* ThemeViewController.swift */,
+			);
+			path = Theme;
+			sourceTree = "<group>";
+		};
+		1D6FFCEA21EB82D00013629F = {
+			isa = PBXGroup;
+			children = (
+				1D6FFCF521EB82D00013629F /* RocketWeb */,
+				1D6FFD0A21EB82D10013629F /* RocketWebTests */,
+				1D6FFD1521EB82D10013629F /* RocketWebUITests */,
+				1DB9609D23954D2100206FBD /* OneSignalNotificationServiceExtension */,
+				648D9348426E47183F36300D /* Pods */,
+				1D6FFCF421EB82D00013629F /* Products */,
+				74899BC803692203C53E1860 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D6FFCF421EB82D00013629F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FFCF321EB82D00013629F /* RocketWeb.app */,
+				1D6FFD0721EB82D10013629F /* RocketWebTests.xctest */,
+				1D6FFD1221EB82D10013629F /* RocketWebUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D6FFCF521EB82D00013629F /* RocketWeb */ = {
+			isa = PBXGroup;
+			children = (
+				1DB960A823954F0A00206FBD /* RocketWeb.entitlements */,
+				1D6FFCF621EB82D00013629F /* AppDelegate.swift */,
+				1D6FFD2421EB82FA0013629F /* Controller */,
+				1D017A9C2303068300497344 /* View */,
+				1D6FFD2621EB837C0013629F /* Utility */,
+				1D6FFD2D21EB84210013629F /* Resources */,
+				1D6FFD2E21EB842D0013629F /* Extension */,
+				1D6FFD0221EB82D00013629F /* Info.plist */,
+				1D1B28F9228C5F17006D7F0D /* GoogleService-Info.plist */,
+			);
+			path = RocketWeb;
+			sourceTree = "<group>";
+		};
+		1D6FFD0A21EB82D10013629F /* RocketWebTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FFD0B21EB82D10013629F /* RocketWebTests.swift */,
+				1D6FFD0D21EB82D10013629F /* Info.plist */,
+			);
+			path = RocketWebTests;
+			sourceTree = "<group>";
+		};
+		1D6FFD1521EB82D10013629F /* RocketWebUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FFD1621EB82D10013629F /* RocketWebUITests.swift */,
+				1D6FFD1821EB82D10013629F /* Info.plist */,
+			);
+			path = RocketWebUITests;
+			sourceTree = "<group>";
+		};
+		1D6FFD2421EB82FA0013629F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1D4E51C6246012760015C8DD /* SlideMenu */,
+				1D79892D244F447A00EC481F /* Popup */,
+				1D4E97B32404D1CE0052FF28 /* Theme */,
+				1D6FFD3621EB9EB10013629F /* Home */,
+				1D6FFD3321EB9DA90013629F /* Splash */,
+				1D6FFCF821EB82D00013629F /* MainViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1D6FFD2621EB837C0013629F /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FFD2721EB83A20013629F /* UtilityMethods.swift */,
+				1D3E988A24684B49000A13A2 /* AppConfig.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		1D6FFD2D21EB84210013629F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DE90D8822C767010052DF3E /* rocket_web.io */,
+				1D6FFCFD21EB82D00013629F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1D6FFD2E21EB842D0013629F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FFD2F21EB84430013629F /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		1D6FFD3321EB9DA90013629F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FFD3121EB9D940013629F /* SplashViewController.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		1D6FFD3621EB9EB10013629F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				1D6FFD3421EB9E9C0013629F /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		1D79892D244F447A00EC481F /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				1D09C95F245E914C00333864 /* NoInternetViewController.swift */,
+				1D79892B244F446200EC481F /* AboutViewController.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		1D987D5C23F3111800E7068B /* CellView */ = {
+			isa = PBXGroup;
+			children = (
+				1D58E6972406BC3700536E74 /* ThemeColorCollectionViewCell.swift */,
+				1D58E6992406BC4800536E74 /* ThemeColorCollectionViewCell.xib */,
+			);
+			path = CellView;
+			sourceTree = "<group>";
+		};
+		1DB9609D23954D2100206FBD /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				1DB9609E23954D2100206FBD /* NotificationService.swift */,
+				1DB960A023954D2100206FBD /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		648D9348426E47183F36300D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9609505B94D1A6FF6EE60150 /* Pods-RocketWeb.debug.xcconfig */,
+				9CD1EAB80421CCB42FA0E298 /* Pods-RocketWeb.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74899BC803692203C53E1860 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF6E5FB247F897200CA65D0 /* RocketWebLib.framework */,
+				1D66E70E2462844200BD3D89 /* FBLPromises.framework */,
+				1D66E7102462844200BD3D89 /* FirebaseCore.framework */,
+				1D66E7122462844200BD3D89 /* FirebaseCoreDiagnostics.framework */,
+				1D66E7142462844200BD3D89 /* FirebaseInstallations.framework */,
+				1D66E7162462844200BD3D89 /* FirebaseInstanceID.framework */,
+				1D66E7182462844200BD3D89 /* FirebaseMessaging.framework */,
+				1D66E71A2462844200BD3D89 /* GoogleDataTransport.framework */,
+				1D66E71C2462844200BD3D89 /* GoogleDataTransportCCTSupport.framework */,
+				1D66E71E2462844200BD3D89 /* GoogleUtilities.framework */,
+				1D66E7202462844200BD3D89 /* nanopb.framework */,
+				1D66E7242462844200BD3D89 /* protobuf.framework */,
+				1D66E7262462844200BD3D89 /* SideMenu.framework */,
+				1D2CE8792445FF0D005EC3C0 /* FirebaseCore.framework */,
+				1D2CE87A2445FF0D005EC3C0 /* FirebaseCoreDiagnostics.framework */,
+				1D2CE87B2445FF0D005EC3C0 /* FirebaseInstanceID.framework */,
+				1D2CE87C2445FF0D005EC3C0 /* FirebaseMessaging.framework */,
+				1D2CE87D2445FF0D005EC3C0 /* GoogleDataTransport.framework */,
+				1D2CE87E2445FF0D005EC3C0 /* GoogleDataTransportCCTSupport.framework */,
+				1D2CE87F2445FF0D005EC3C0 /* GoogleUtilities.framework */,
+				1D2CE8802445FF0D005EC3C0 /* nanopb.framework */,
+				1D2CE8822445FF0D005EC3C0 /* protobuf.framework */,
+				1D2CE8832445FF0D005EC3C0 /* SideMenu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6FFCF221EB82D00013629F /* RocketWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6FFD1B21EB82D10013629F /* Build configuration list for PBXNativeTarget "RocketWeb" */;
+			buildPhases = (
+				44BBA105C06329B6E3940460 /* [CP] Check Pods Manifest.lock */,
+				1D6FFCEF21EB82D00013629F /* Sources */,
+				1D6FFCF021EB82D00013629F /* Frameworks */,
+				1D6FFCF121EB82D00013629F /* Resources */,
+				188416F8B7DFE43ADCE9B858 /* [CP] Embed Pods Frameworks */,
+				1DB960A423954D2100206FBD /* Embed App Extensions */,
+				1DF6E5FE247F897200CA65D0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RocketWeb;
+			productName = RocketWeb;
+			productReference = 1D6FFCF321EB82D00013629F /* RocketWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D6FFD0621EB82D10013629F /* RocketWebTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6FFD1E21EB82D10013629F /* Build configuration list for PBXNativeTarget "RocketWebTests" */;
+			buildPhases = (
+				1D6FFD0321EB82D10013629F /* Sources */,
+				1D6FFD0421EB82D10013629F /* Frameworks */,
+				1D6FFD0521EB82D10013629F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6FFD0921EB82D10013629F /* PBXTargetDependency */,
+			);
+			name = RocketWebTests;
+			productName = RocketWebTests;
+			productReference = 1D6FFD0721EB82D10013629F /* RocketWebTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D6FFD1121EB82D10013629F /* RocketWebUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6FFD2121EB82D10013629F /* Build configuration list for PBXNativeTarget "RocketWebUITests" */;
+			buildPhases = (
+				1D6FFD0E21EB82D10013629F /* Sources */,
+				1D6FFD0F21EB82D10013629F /* Frameworks */,
+				1D6FFD1021EB82D10013629F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D6FFD1421EB82D10013629F /* PBXTargetDependency */,
+			);
+			name = RocketWebUITests;
+			productName = RocketWebUITests;
+			productReference = 1D6FFD1221EB82D10013629F /* RocketWebUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D6FFCEB21EB82D00013629F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Md Imran Choudhury";
+				TargetAttributes = {
+					1D6FFCF221EB82D00013629F = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1110;
+						ProvisioningStyle = Automatic;
+					};
+					1D6FFD0621EB82D10013629F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D6FFCF221EB82D00013629F;
+					};
+					1D6FFD1121EB82D10013629F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D6FFCF221EB82D00013629F;
+					};
+				};
+			};
+			buildConfigurationList = 1D6FFCEE21EB82D00013629F /* Build configuration list for PBXProject "RocketWeb" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D6FFCEA21EB82D00013629F;
+			productRefGroup = 1D6FFCF421EB82D00013629F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6FFCF221EB82D00013629F /* RocketWeb */,
+				1D6FFD0621EB82D10013629F /* RocketWebTests */,
+				1D6FFD1121EB82D10013629F /* RocketWebUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D6FFCF121EB82D00013629F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DA95E1B247E367C00EC60A5 /* Info.plist in Resources */,
+				1D58E69A2406BC4800536E74 /* ThemeColorCollectionViewCell.xib in Resources */,
+				1D1B28FA228C5F17006D7F0D /* GoogleService-Info.plist in Resources */,
+				1D6FFCFE21EB82D00013629F /* Assets.xcassets in Resources */,
+				1DE90D8922C767010052DF3E /* rocket_web.io in Resources */,
+				1D6FFCFC21EB82D00013629F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FFD0521EB82D10013629F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FFD1021EB82D10013629F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		188416F8B7DFE43ADCE9B858 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RocketWeb/Pods-RocketWeb-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/PromisesObjC/FBLPromises.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBLPromises.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RocketWeb/Pods-RocketWeb-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44BBA105C06329B6E3940460 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RocketWeb-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D6FFCEF21EB82D00013629F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FFD3021EB84430013629F /* Extension.swift in Sources */,
+				1D3E988B24684B49000A13A2 /* AppConfig.swift in Sources */,
+				1DB221F6242E611D00F7C12D /* SlideMenuViewController.swift in Sources */,
+				1D6FFCF921EB82D00013629F /* MainViewController.swift in Sources */,
+				1D6FFCF721EB82D00013629F /* AppDelegate.swift in Sources */,
+				1D6FFD3521EB9E9C0013629F /* HomeViewController.swift in Sources */,
+				1D6FFD2A21EB83A20013629F /* UtilityMethods.swift in Sources */,
+				1D09C960245E914C00333864 /* NoInternetViewController.swift in Sources */,
+				1D4E97B22404D1C10052FF28 /* ThemeViewController.swift in Sources */,
+				1D6FFD3221EB9D940013629F /* SplashViewController.swift in Sources */,
+				1D79892C244F446200EC481F /* AboutViewController.swift in Sources */,
+				1D58E6982406BC3700536E74 /* ThemeColorCollectionViewCell.swift in Sources */,
+				1D987D5923F3110300E7068B /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FFD0321EB82D10013629F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FFD0C21EB82D10013629F /* RocketWebTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D6FFD0E21EB82D10013629F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D6FFD1721EB82D10013629F /* RocketWebUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D6FFD0921EB82D10013629F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6FFCF221EB82D00013629F /* RocketWeb */;
+			targetProxy = 1D6FFD0821EB82D10013629F /* PBXContainerItemProxy */;
+		};
+		1D6FFD1421EB82D10013629F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D6FFCF221EB82D00013629F /* RocketWeb */;
+			targetProxy = 1D6FFD1321EB82D10013629F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D6FFCFA21EB82D00013629F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D6FFCFB21EB82D00013629F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D6FFD1921EB82D10013629F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D6FFD1A21EB82D10013629F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D6FFD1C21EB82D10013629F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9609505B94D1A6FF6EE60150 /* Pods-RocketWeb.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RocketWeb/RocketWeb.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 7T6NTZ6F77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				INFOPLIST_FILE = RocketWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = infixsoft.imrankst1221.RocketWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
+			};
+			name = Debug;
+		};
+		1D6FFD1D21EB82D10013629F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CD1EAB80421CCB42FA0E298 /* Pods-RocketWeb.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = RocketWeb/RocketWeb.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 7T6NTZ6F77;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods",
+					"$(PROJECT_DIR)$(LOCAL_LIBRARY_DIR)",
+				);
+				INFOPLIST_FILE = RocketWeb/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.0.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = infixsoft.imrankst1221.RocketWeb;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s x86_64 i386";
+			};
+			name = Release;
+		};
+		1D6FFD1F21EB82D10013629F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = infixsoft.imrankst1221.RocketWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketWeb.app/RocketWeb";
+			};
+			name = Debug;
+		};
+		1D6FFD2021EB82D10013629F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketWebTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = infixsoft.imrankst1221.RocketWebTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketWeb.app/RocketWeb";
+			};
+			name = Release;
+		};
+		1D6FFD2221EB82D10013629F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = infixsoft.imrankst1221.RocketWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RocketWeb;
+			};
+			name = Debug;
+		};
+		1D6FFD2321EB82D10013629F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RocketWebUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = infixsoft.imrankst1221.RocketWebUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RocketWeb;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6FFCEE21EB82D00013629F /* Build configuration list for PBXProject "RocketWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6FFD1921EB82D10013629F /* Debug */,
+				1D6FFD1A21EB82D10013629F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6FFD1B21EB82D10013629F /* Build configuration list for PBXNativeTarget "RocketWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6FFD1C21EB82D10013629F /* Debug */,
+				1D6FFD1D21EB82D10013629F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6FFD1E21EB82D10013629F /* Build configuration list for PBXNativeTarget "RocketWebTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6FFD1F21EB82D10013629F /* Debug */,
+				1D6FFD2021EB82D10013629F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D6FFD2121EB82D10013629F /* Build configuration list for PBXNativeTarget "RocketWebUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6FFD2221EB82D10013629F /* Debug */,
+				1D6FFD2321EB82D10013629F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D6FFCEB21EB82D00013629F /* Project object */;
+}

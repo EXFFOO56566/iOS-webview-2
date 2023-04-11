@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>139918194043-465cl2bd6dicv81scgoeu0va7l2tl2qc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.139918194043-465cl2bd6dicv81scgoeu0va7l2tl2qc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>139918194043-i2b2o81g35ab3g0j21jd3v8p3h8n80q9.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDS_1iCvfaJqN2q29mIE3514ydSEZZjO08</string>
+	<key>GCM_SENDER_ID</key>
+	<string>139918194043</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>infixsoft.imrankst1221.RocketWeb</string>
+	<key>PROJECT_ID</key>
+	<string>rocket-web-3e42e</string>
+	<key>STORAGE_BUCKET</key>
+	<string>rocket-web-3e42e.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:139918194043:ios:212ff9d22a429f0f</string>
+	<key>DATABASE_URL</key>
+	<string>https://rocket-web-3e42e.firebaseio.com</string>
+</dict>
+</plist>

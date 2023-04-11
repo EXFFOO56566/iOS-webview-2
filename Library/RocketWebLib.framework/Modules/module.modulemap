@@ -1,0 +1,11 @@
+framework module RocketWebLib {
+  umbrella header "RocketWebLib.h"
+
+  export *
+  module * { export * }
+}
+
+module RocketWebLib.Swift {
+    header "RocketWebLib-Swift.h"
+    requires objc
+}
